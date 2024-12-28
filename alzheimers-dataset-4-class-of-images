@@ -1,0 +1,229 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Alzheimer&#x27;s Dataset ( 4 class of Images) | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Images of MRI Segementation" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="arts and entertainment,education,deep learning" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" type="text/javascript">
+    window["pageRequestStartTime"] = 1663053061622;
+    window["pageRequestEndTime"] = 1663053061694;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/tourist55/alzheimers-dataset-4-class-of-images" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=8a3d8387530957456cac" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=17be6e29bddcae4e6f77" />
+  
+    
+ 
+      <script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/tourist55/alzheimers-dataset-4-class-of-images" />
+    <meta property="og:title" content="Alzheimer&#x27;s Dataset ( 4 class of Images)" />
+    <meta property="og:description" content="Images of MRI Segementation" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/457093/861496/0e1367b46c9e96bdf3823ec7833b965d/dataset-card.jpg?t=2019-12-26-19-14-30" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="Px9yIszpa+ZpVS2dUuEH5A==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Alzheimer's Dataset ( 4 class of Images)","description":"### Context\n\nThe Data is hand collected from various websites with each and every labels verified. \n\n\n### Content\n\nThe data consists of MRI images. The data has four classes of images both in training as well as a testing set:\n\n1. Mild Demented\n\n2. Moderate Demented\n\n3. Non Demented\n\n4. Very Mild Demented\n\n### Inspiration\n\nThe main inspiration behind sharing this Dataset is to make a very highly accurate model predict the stage of Alzheimers..","url":"https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images","version":1,"keywords":["subject, arts and entertainment","subject, people and society, education","technique, deep learning"],"license":{"@type":"CreativeWork","name":"Database: Open Database, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/"},"identifier":["457093"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Sarvesh Dubey","url":"https://www.kaggle.com/tourist55","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2142457-gp.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images/download?datasetVersionNumber=1","contentSize":"35779075 bytes"}],"commentCount":9,"dateModified":"2019-12-26T19:02:53.777Z","discussionUrl":"https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images/discussion","alternateName":"Images of MRI Segementation","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/457093/861496/0e1367b46c9e96bdf3823ec7833b965d/dataset-card.jpg?t=2019-12-26-19-14-30","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":9},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":12352},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":112946},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":306}]}</script>
+
+
+  
+    
+
+  
+    
+    
+<script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8CpxVlrQp8xAogku-5T5qghJGxuBGYHHMit14Y8SoTYI2QrdzORq1gzTQhyP8E6RHeF8Z-_OP89iTpSiBKqTNjxlN7eMuUMo_Y3JoomDLg0Ikw',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMwNTM5NjEsIlVzZXJJZCI6MH0.ljqS8wF4HS3QgHavTRdrGVqBSrxpMyHNx3zgSNuRWuA',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    const decodeUserProperty = function (escapedUserProperty) {
+        escapedUserProperty = escapedUserProperty || "";
+        try {
+            const textVersion = new DOMParser().parseFromString(escapedUserProperty, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserProperty;
+    }
+    Kaggle.Current.userDisplayName = decodeUserProperty(Kaggle.Current.userDisplayNameEscaped);
+    Kaggle.Current.userEmail = decodeUserProperty(Kaggle.Current.userEmailEscaped); 
+</script>
+
+    
+
+<script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="Px9yIszpa+ZpVS2dUuEH5A==" src="/static/assets/runtime.js?v=03237ff803721c4da2fc" data-turbolinks-track="reload"></script>
+  <script nonce="Px9yIszpa+ZpVS2dUuEH5A==" src="/static/assets/vendor.js?v=1c3ecd6c9d333a8b1797" data-turbolinks-track="reload"></script>
+  <script nonce="Px9yIszpa+ZpVS2dUuEH5A==" src="/static/assets/app.js?v=21d219791ae426b785eb" data-turbolinks-track="reload"></script>
+    <script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="Px9yIszpa+ZpVS2dUuEH5A==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="Px9yIszpa+ZpVS2dUuEH5A==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":457093,"slug":"alzheimers-dataset-4-class-of-images","title":"Alzheimer\u0027s Dataset ( 4 class of Images)","description":"### Context\n\nThe Data is hand collected from various websites with each and every labels verified. \n\n\n### Content\n\nThe data consists of MRI images. The data has four classes of images both in training as well as a testing set:\n\n1. Mild Demented\n\n2. Moderate Demented\n\n3. Non Demented\n\n4. Very Mild Demented\n\n### Inspiration\n\nThe main inspiration behind sharing this Dataset is to make a very highly accurate model predict the stage of Alzheimers..","viewCount":112946,"downloadCount":12352,"scriptCount":129,"topicCount":9,"owner":{"id":2142457,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2142457-gp.jpg","name":"Sarvesh Dubey","profileUrl":"/tourist55","slug":"tourist55","userTier":"CONTRIBUTOR"},"license":{"id":6,"name":"Database: Open Database, Contents: \u00A9 Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/"},"overview":"Images of MRI Segementation","collaboratorList":{"owner":{"userId":2142457,"profileUrl":"/tourist55","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2142457-gp.jpg","name":"Sarvesh Dubey","slug":"tourist55","userTier":"CONTRIBUTOR","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/457093/861496/0e1367b46c9e96bdf3823ec7833b965d/dataset-cover.jpg?t=2019-12-26-19-14-30","data":{"totalSize":35779075,"isFileset":true,"canSeeDownload":true,"firestorePath":"0h3yYVnAyL3f1SVbPebQ/versions/UAa2ufVFtPg6HsWbydjx","downloadUrl":"/datasets/tourist55/tourist55/download?datasetVersionNumber=1","versionId":888049,"id":474899},"voteCount":306,"medalUrl":"/static/images/medals/datasets/goldl@2x.png","downloadUrl":"/datasets/tourist55/alzheimers-dataset-4-class-of-images/download?datasetVersionNumber=1","lastUpdateTime":"2019-12-26T19:02:53.777Z","datasetVersionNumber":1,"creatorDisplayName":"Sarvesh Dubey","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/457093/861496/0e1367b46c9e96bdf3823ec7833b965d/dataset-card.jpg?t=2019-12-26-19-14-30","categories":{"tags":[{"id":2200,"name":"arts and entertainment","fullPath":"subject \u003E arts and entertainment","listingUrl":"/datasets?group=public\u0026tagids=2200","description":"Activities that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience\u0027s attention.","datasetCount":21838,"notebookCount":22820,"tagUrl":"/tags/arts-and-entertainment","displayName":"Arts and Entertainment"},{"id":11105,"name":"education","fullPath":"subject \u003E people and society \u003E education","listingUrl":"/datasets?group=public\u0026tagids=11105","description":"Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.","datasetCount":10531,"competitionCount":6,"notebookCount":14477,"tagUrl":"/tags/education","displayName":"Education"},{"id":13310,"name":"deep learning","fullPath":"technique \u003E deep learning","listingUrl":"/datasets?group=public\u0026tagids=13310","description":"","datasetCount":1811,"notebookCount":13996,"tagUrl":"/tags/deep-learning","displayName":"Deep Learning"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images","forumId":469962,"datasetVersionId":861496,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":1,"diffType":"VERSIONED"},"@wf": "Datasets.DatasetMaterialDtoWireFormat3"});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="Px9yIszpa&#x2B;ZpVS2dUuEH5A==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
