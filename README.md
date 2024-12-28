@@ -1,1 +1,4 @@
 # Classification-of-Alzheimer-s-using-CNN-and-RNN
+Alzheimer’s disease (AD) is marked by severe memory loss and cognitive decline, often linked to measurable brain structure changes detectable via MRI scans. These preclinical changes offer opportunities for early detection through image classification tools like Convolutional Neural Networks (CNNs). However, limited sample sizes in most AD studies pose challenges.
+
+This project utilizes the Alzheimer's Dataset from Kaggle, a curated collection of verified labels. We conducted a comprehensive evaluation of deep learning models, focusing on the VGG16 architecture for transfer learning and other techniques. By experimenting with diverse image processing methods, we aimed to improve accuracy and address challenges in reproducibility and dataset inconsistencies common in AD research.
